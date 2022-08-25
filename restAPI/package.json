@@ -1,0 +1,25 @@
+{
+  "name": "rest_destination",
+  "version": "0.5.0",
+  "main": "index.js",
+  "author": "saepudin",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "http-errors": "^2.0.0",
+    "joi": "^17.5.0",
+    "mongodb": "^4.2.2",
+    "request": "^2.88.2"
+  }
+}
